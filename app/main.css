@@ -1,0 +1,28 @@
+/* main.css */
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: red;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+div{
+	text-shadow:0 0 1 #000;
+	box-shadow:0 1 1 #000;
+}
+
+#root{
+	transition:all .5 linear;
+}
